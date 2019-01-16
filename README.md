@@ -2,6 +2,8 @@
 
 FlexboxLayout Bindings for Xamarin Android projects.
 
+### Download the NuGet package directly => [v1.1.0](https://github.com/rf43/FlexboxLayout.Droid.Bindings/blob/master/FlexboxLayout.Droid.Bindings/FlexboxLayout.Droid.Bindings/bin/Release/FlexboxLayout.Droid.Bindings.1.1.0.nupkg)
+
 ---
 
 [https://github.com/google/flexbox-layout](https://github.com/google/flexbox-layout)
