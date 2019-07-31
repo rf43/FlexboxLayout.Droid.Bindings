@@ -9,10 +9,10 @@ or
 Use [NuGet Gallery](https://www.nuget.org/packages/FlexboxLayout.Droid.Bindings/) to pull the package into your project
 
 **Package Manager**
-`Install-Package FlexboxLayout.Droid.Bindings -Version 1.1.0`
+`Install-Package FlexboxLayout.Droid.Bindings -Version 1.0.0`
 
 **.NET CLI**
-`dotnet add package FlexboxLayout.Droid.Bindings --version 1.1.0`
+`dotnet add package FlexboxLayout.Droid.Bindings --version 1.0.0`
 
 ---
 
