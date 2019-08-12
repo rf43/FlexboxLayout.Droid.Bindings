@@ -1,3 +1,5 @@
 /.vs
-/.packages
+/packages
 /obj
+/bin/release/*.dll
+/bin/release/*.pdb

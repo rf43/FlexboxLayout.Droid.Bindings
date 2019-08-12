@@ -1,3 +1,4 @@
 /.vs
-/.packages
+/packages
 /obj
+/bin

@@ -15,5 +15,11 @@
   - For Java interfaces, use "jni-interface" attribute instead of "jni-class" attribute.
   - To change the type of the return value, use "return" as the parameter name.
   - The parameter names will be p0, p1, ... unless you provide JavaDoc file in the project.
+    
+    <mapping jni-class="com/skobbler/ngx/map/realreach/SKRealReachSettings">
+        <method jni-name="getFoo" parameter="return" clr-enum-type="Com.Acme.Common.FooEnum" />
+        <method jni-name="setFoo" parameter="measurementUnit" clr-enum-type="Com.Acme.Common.FooEnum" />
+    </mapping>
   -->
+
 </enum-method-mappings>
