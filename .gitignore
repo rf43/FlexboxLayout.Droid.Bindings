@@ -2,3 +2,6 @@
 /packages
 /obj
 /bin
+.project
+.settings
+.classpath
