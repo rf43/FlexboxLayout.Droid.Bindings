@@ -44,7 +44,7 @@ Please use 1.0.0 if you haven't migrated to AndroidX.
 
 **- or -**
 
-Use [NuGet Gallery](https://www.nuget.org/packages/FlexboxLayout.Droid.Bindings/1.0.0.1) to pull the package into your project
+#### Use [NuGet Gallery](https://www.nuget.org/packages/FlexboxLayout.Droid.Bindings/1.0.0.1) to pull the package into your project
 
 **Package Manager**
 `Install-Package FlexboxLayout.Droid.Bindings -Version 1.0.0.1`
@@ -52,4 +52,7 @@ Use [NuGet Gallery](https://www.nuget.org/packages/FlexboxLayout.Droid.Bindings/
 **.NET CLI**
 `dotnet add package FlexboxLayout.Droid.Bindings --version 1.0.0.1`
 
+
+
+Official native Google Flexbox Layout repo:
 [https://github.com/google/flexbox-layout](https://github.com/google/flexbox-layout)
