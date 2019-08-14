@@ -16,4 +16,53 @@
   - An optional "bitfield" attribute marks the enum type with [Flags].
   - For Java interfaces, use "jni-interface" attribute instead of "jni-class" attribute.
   -->
+    
+    <mapping clr-enum-type="Com.Google.Android.Flexbox.AlignSelf" jni-interface="com/google/android/flexbox/AlignSelf">
+        <field clr-name="Auto" jni-name="AUTO" value="-1" />
+        <field clr-name="FlexStart" jni-name="FLEX_START" value="0" />
+        <field clr-name="FlexEnd" jni-name="FLEX_END" value="1" />
+        <field clr-name="Center" jni-name="CENTER" value="2" />
+        <field clr-name="Baseline" jni-name="BASELINE" value="3" />
+        <field clr-name="Stretch" jni-name="STRETCH" value="4" />
+    </mapping>
+    
+    <mapping clr-enum-type="Com.Google.Android.Flexbox.FlexDirection" jni-interface="com/google/android/flexbox/FlexDirection">
+        <field clr-name="Row" jni-name="ROW" value="0" />
+        <field clr-name="RowReverse" jni-name="ROW_REVERSE" value="1" />
+        <field clr-name="Column" jni-name="COLUMN" value="2" />
+        <field clr-name="ColumnReverse" jni-name="COLUMN_REVERSE" value="3" />
+    </mapping>
+    
+    <mapping clr-enum-type="Com.Google.Android.Flexbox.FlexWrap" jni-interface="com/google/android/flexbox/FlexWrap">
+        <field clr-name="NoWrap" jni-name="NOWRAP" value="0" />
+        <field clr-name="Wrap" jni-name="WRAP" value="1" />
+        <field clr-name="WrapReverse" jni-name="WRAP_REVERSE" value="2" />
+    </mapping>
+    
+    <mapping clr-enum-type="Com.Google.Android.Flexbox.JustifyContent" jni-interface="com/google/android/flexbox/JustifyContent">
+        <field clr-name="FlexStart" jni-name="FLEX_START" value="0" />
+        <field clr-name="FlexEnd" jni-name="FLEX_END" value="1" />
+        <field clr-name="Center" jni-name="CENTER" value="2" />
+        <field clr-name="SpaceBetween" jni-name="SPACE_BETWEEN" value="3" />
+        <field clr-name="SpaceAround" jni-name="SPACE_AROUND" value="4" />
+        <field clr-name="SpaceEvenly" jni-name="SPACE_EVENLY" value="5" />
+    </mapping>
+    
+    <mapping clr-enum-type="Com.Google.Android.Flexbox.AlignItems" jni-interface="com/google/android/flexbox/AlignItems">
+        <field clr-name="FlexStart" jni-name="FLEX_START" value="0" />
+        <field clr-name="FlexEnd" jni-name="FLEX_END" value="1" />
+        <field clr-name="Center" jni-name="CENTER" value="2" />
+        <field clr-name="Baseline" jni-name="BASELINE" value="3" />
+        <field clr-name="Stretch" jni-name="STRETCH" value="4" />
+    </mapping>
+        
+    <mapping clr-enum-type="Com.Google.Android.Flexbox.AlignContent" jni-interface="com/google/android/flexbox/AlignContent">
+        <field clr-name="FlexStart" jni-name="FLEX_START" value="0" />
+        <field clr-name="FlexEnd" jni-name="FLEX_END" value="1" />
+        <field clr-name="Center" jni-name="CENTER" value="2" />
+        <field clr-name="SpaceBetween" jni-name="SPACE_BETWEEN" value="3" />
+        <field clr-name="SpaceAround" jni-name="SPACE_AROUND" value="4" />
+        <field clr-name="Stretch" jni-name="STRETCH" value="5" />
+    </mapping>
+    
 </enum-field-mappings>
